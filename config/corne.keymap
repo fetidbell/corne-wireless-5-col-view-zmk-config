@@ -135,9 +135,9 @@
 
         num_nav {
             bindings = <
-&trans  &kp N1        &kp N2  &kp N3  &kp N4  &kp N5          &trans    &trans    &trans  &trans     &trans  &trans
-&trans  &kp NUMBER_6  &kp N7  &kp N8  &kp N9  &kp NUMBER_0    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
-&trans  &trans        &trans  &trans  &trans  &trans          &trans    &trans    &trans  &trans     &trans  &trans
+&trans  &kp N1        &kp N2  &kp N3  &kp N4  &kp N5          &trans    &trans    &trans  &kp DOUBLE_QUOTES  &trans   &trans
+&trans  &kp NUMBER_6  &kp N7  &kp N8  &kp N9  &kp NUMBER_0    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT          &kp SQT  &trans
+&trans  &trans        &trans  &trans  &trans  &trans          &trans    &trans    &trans  &trans             &trans   &trans
                               &trans  &trans  &trans          &trans    &trans    &trans
             >;
         };
