@@ -133,21 +133,21 @@
             >;
         };
 
-        numsym_layer {
+        num_nav {
             bindings = <
-&trans  &kp N1         &kp N2     &kp N3     &kp N4     &kp N5          &kp LESS_THAN     &kp LEFT_BRACKET   &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp SEMICOLON  &trans
-&trans  &kp NUMBER_6   &kp N7     &kp N8     &kp N9     &kp NUMBER_0    &kp LEFT          &kp DOWN           &kp UP           &kp RIGHT              &kp SQT        &trans
-&trans  &kp BACKSLASH  &kp MINUS  &kp EQUAL  &kp SLASH  &kp ASTERISK    &kp GREATER_THAN  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp GRAVE      &trans
-                                  &trans     &trans     &trans          &trans            &trans             &trans
+&trans  &kp N1        &kp N2  &kp N3  &kp N4  &kp N5          &trans    &trans    &trans  &trans     &trans  &trans
+&trans  &kp NUMBER_6  &kp N7  &kp N8  &kp N9  &kp NUMBER_0    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+&trans  &trans        &trans  &trans  &trans  &trans          &trans    &trans    &trans  &trans     &trans  &trans
+                              &trans  &trans  &trans          &trans    &trans    &trans
             >;
         };
 
-        fun_layer {
+        symbols {
             bindings = <
-&trans  &kp EXCLAMATION  &kp AT_SIGN      &kp POUND       &kp DOLLAR     &kp PERCENT     &kp C_BRIGHTNESS_INC  &kp F1  &kp F4  &kp F7  &kp F10  &trans
-&trans  &kp CARET        &kp AMPERSAND    &kp ASTERISK    &kp TILDE      &kp GRAVE       &kp C_PLAY_PAUSE      &kp F2  &kp F5  &kp F8  &kp F11  &trans
-&trans  &kp INS          &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAGE_DOWN  &kp C_VOL_DN    &kp C_BRIGHTNESS_DEC  &kp F3  &kp F6  &kp F9  &kp F12  &trans
-                                          &trans          &trans         &trans          &trans                &trans  &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN    &kp POUND     &kp DOLLAR  &kp PERCENT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans         &trans            &trans  &trans
+&trans  &kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp TILDE   &kp GRAVE      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN  &kp GREATER_THAN  &trans  &trans
+&trans  &kp BACKSLASH    &kp PIPE       &kp SLASH     &kp MINUS   &kp EQUAL      &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans         &trans            &trans  &trans
+                                        &trans        &trans      &trans         &trans                &trans                 &trans
             >;
         };
 
